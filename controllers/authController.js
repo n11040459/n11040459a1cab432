@@ -1,7 +1,7 @@
 const jwt = require('jsonwebtoken');
 const users = {
-  jack: { password: 'jack456', role: 'user' },
-  admin: { password: 'admin123', role: 'admin' }
+  testUser: { password: 'password123', role: 'user' },
+  testAdmin: { password: 'password456', role: 'admin' }
 };
 
 exports.login = (req, res) => {
